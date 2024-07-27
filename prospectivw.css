@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.bgc{
+    background-color: #082A4A;
+}
+.bg-light{
+    background-color: white!important;
+}
+#bg{
+    height: calc(100vh - 131px);
+}
+#bg{
+    background-image: url("bg.png");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#bg::before{
+    position: absolute;
+    content: "";
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+p,h2,h1,h3,h4{
+    font-family: poppins;
+}
+.p{
+    padding: 120px 40% 0px 0px ;
+}
+.bg{
+    background-color: #EEF2F6;
+}
+.f{
+    height: 100%;
+    background: linear-gradient(90deg, #5a154a 0%, #922278 100%);
+}
+.s{
+    background: linear-gradient(90deg, #a13172 0%, #c33e8b 100%);
+}
+.t{
+    background: linear-gradient(90deg, #e73056 0%, #e95038 100%);
+}
+.fo{
+    background: linear-gradient(90deg, #f28a19 0%, #f9b107 100%);
+}
+.fi{
+    background: linear-gradient(90deg, #77ac43 0%, #94ca5f 100%);
+}
+.si{
+    background: linear-gradient(90deg, #235683 0%, #048fa3 100%);
+
+}
+.se{
+    background: linear-gradient(90deg, #48b2bc 0%, #95d0d3 100%);
+
+}
+.e{
+    background: linear-gradient(90deg, #279a96 0%, #2eaea9 100%);
+}
+.form{
+    height: 40px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.705);
+}
+.in-w{
+    width: 380px;
+}
+.h{
+    height: 100px;
+}
+footer{
+    background-color: #082A4A;
+}
+.l{
+    position: relative;
+}
+.l::after
+{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    left: 0;
+    bottom: -10px;
+    width: 90px;
+    height: 1.5px;
+}
+@media(max-width:768px){
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    h3{
+        font-size: 19px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .p{
+    padding: 55px 20% 0px 20px;
+    }
+    .br br{
+        display: none;
+    }
+}
+@media (max-width:1000px) and (min-width:768px) {
+    .p{
+        padding: 55px 20% 0px 0px;
+        margin-left: 25px;
+        }
+}
